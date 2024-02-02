@@ -7,7 +7,6 @@ import math
 
 Red = "\033[0;31m"
 Green = "\033[0;32m"
-Orange = "\033[0;33m"
 Blue = "\033[0;34m"
 Purple = "\033[0;35m"
 Cyan = "\033[0;36m"
@@ -29,11 +28,12 @@ if online == True:
 
 else:
     status = f"{Red}Failed"
+    print(f"\n\nRun Status: {status}")
     exit()
 
 print(f"\n\nRun Status: {Green}{status}")
 
-print(f"{Cyan}\n\nPython script was made by: \n\n")
+print(f"{Cyan}\n\nPython Game Script Was Made By: \n\n")
 
 print(f"""{Purple}
 
